@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # MongoDB connection string from environment variable
-mongo_connection_string ="mongodb://faceapiAdmin:faceapi!admin@localhost:27017"
+mongo_connection_string ="MONGO_CONNECTION_STRING"
 
 # Debugging: print the connection string to ensure it's loaded correctly
 print(f"Using connection string: {mongo_connection_string}")

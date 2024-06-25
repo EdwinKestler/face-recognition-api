@@ -25,7 +25,7 @@ facenet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 # Initialize FastAPI
 app = FastAPI()
 
-mongo_connection_string = "mongodb://faceapiAdmin:faceapi!admin@localhost:27017"
+mongo_connection_string = "MONGO_CONNECTION_STRING"
 
 print(db_choice, "mongo")
 
